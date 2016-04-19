@@ -1,0 +1,8 @@
+{
+    "name": "vuk/template",
+    "autoload": {
+        "psr-0" : {
+            "vuk\\template" : "src"
+        }
+    }
+}
