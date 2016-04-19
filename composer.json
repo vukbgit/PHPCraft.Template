@@ -1,5 +1,5 @@
 {
-    "name": "vuk/template",
+    "name": "PHPCraft/template",
     "description": "template engine wrapper",
     "license": "MIT",
     "require": {
