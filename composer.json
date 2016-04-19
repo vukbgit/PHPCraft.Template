@@ -1,5 +1,8 @@
 {
     "name": "vuk/template",
+    "require": {
+            "twig/twig": "~1.0"
+        },
     "autoload": {
         "psr-0" : {
             "PHPCraft\\template" : "src"
