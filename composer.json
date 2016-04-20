@@ -1,10 +1,12 @@
 {
     "name": "phpcraft/template",
-    "type": "library"
+    "type": "library",
     "description": "template engine wrapper",
     "license": "MIT",
     "authors": [
-	"name": "vuk",
+	{
+            "name": "vuk"
+	}
     ],
     "require": {
             "twig/twig": "~1.0"
