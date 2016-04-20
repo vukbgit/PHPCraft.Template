@@ -1,13 +1,17 @@
 {
-    "name": "PHPCraft/template",
+    "name": "phpcraft/template",
+    "type": "library"
     "description": "template engine wrapper",
     "license": "MIT",
+    "authors": [
+	"name": "vuk",
+    ],
     "require": {
             "twig/twig": "~1.0"
     },
     "autoload": {
-        "psr-0" : {
-            "PHPCraft\\" : "src/"
+        "psr-4" : {
+            "PHPCraft\\Template\\" : "src/"
         }
     }
 }
