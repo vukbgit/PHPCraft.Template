@@ -4,7 +4,7 @@ namespace PHPCraft\Template;
 
 use Twig_Environment;
 
-class TwigRenderer implements Renderer
+class TwigRenderer implements RendererInterface
 {
     private $renderer;
 
