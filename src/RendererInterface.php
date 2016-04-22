@@ -2,7 +2,7 @@
 
 namespace PHPCraft\Template;
 
-interface Renderer
+interface RendererInterface
 {
     public function render($template, $data = []);
 }
