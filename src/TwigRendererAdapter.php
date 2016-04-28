@@ -9,7 +9,7 @@ use Twig_Environment;
  *
  * @author vuk <info@vuk.bg.it>
  */
-class TwigRenderer implements RendererInterface
+class TwigRendererAdapter implements RendererInterface
 {
     private $renderer;
     
