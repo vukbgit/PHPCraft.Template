@@ -1,7 +1,7 @@
 {
     "name": "phpcraft/template",
     "type": "library",
-    "description": "template engine wrapper",
+    "description": "template engine adapter",
     "license": "MIT",
     "authors": [
 	{
