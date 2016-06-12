@@ -7,7 +7,7 @@ namespace PHPCraft\Template;
  *
  * @author vuk <info@vuk.bg.it>
  */
-interface RendererInterface
+interface TemplateInterface
 {
     /**
      * Renders template
