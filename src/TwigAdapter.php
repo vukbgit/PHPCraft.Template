@@ -33,4 +33,16 @@ class TwigAdapter implements TemplateInterface
     {
         return $this->renderer->render($template.'.html', $templateParameters);
     }
+    
+    /**
+     * adds a function
+     *
+     * @param string $template template path into Twig_Environment template directory
+     * @param array $templateParameters parameters to be passed to template
+     **/
+    public function addFunction($name, $functionBody)
+    {
+        $function = new \Twig_SimpleFunction($name, $functionBody);
+        $this->renderer->addFunction($function);
+    }
 }
