@@ -11,6 +11,10 @@
     "require": {
             "twig/twig": "~1.0"
     },
+    "suggest": {
+        "aptoma/twig-markdown": "twig adapter for template markdown capability",
+        "michelf/php-markdown": "markdown engine for template markdown capability"
+    },
     "autoload": {
         "psr-4" : {
             "PHPCraft\\Template\\" : "src/"
