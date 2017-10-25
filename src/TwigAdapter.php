@@ -45,4 +45,16 @@ class TwigAdapter implements TemplateInterface
         $function = new \Twig_SimpleFunction($name, $functionBody);
         $this->renderer->addFunction($function);
     }
+    
+    /**
+     * adds a filter
+     *
+     * @param string $template template path into Twig_Environment template directory
+     * @param array $templateParameters parameters to be passed to template
+     **/
+    public function addFilter($name, $functionBody)
+    {
+        $filter = new \Twig_SimpleFilter($name, $functionBody);
+        $this->renderer->addFilter($filter);
+    }
 }
