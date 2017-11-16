@@ -9,7 +9,7 @@
 	}
     ],
     "require": {
-            "twig/twig": "~2.0"
+            "twig/twig": "~1.0"
     },
     "suggest": {
         "aptoma/twig-markdown": "twig adapter for template markdown capability",
