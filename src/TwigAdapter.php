@@ -24,7 +24,7 @@ class TwigAdapter implements TemplateInterface
     }
 
     /**
-     * Get engine
+     * Gets engine
      **/
     public function getEngine()
     {

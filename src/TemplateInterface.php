@@ -10,6 +10,11 @@ namespace PHPCraft\Template;
 interface TemplateInterface
 {
     /**
+     * Gets engine
+     **/
+    public function getEngine();
+
+    /**
      * Renders template
      *
      * @param string $template template identifier
