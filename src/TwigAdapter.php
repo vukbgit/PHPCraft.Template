@@ -12,7 +12,7 @@ use Twig_Environment;
 class TwigAdapter implements TemplateInterface
 {
     private $renderer;
-    
+
     /**
      * Constructor.
      *
@@ -21,6 +21,14 @@ class TwigAdapter implements TemplateInterface
     public function __construct(Twig_Environment $renderer)
     {
         $this->renderer = $renderer;
+    }
+
+    /**
+     * Get engine
+     **/
+    public function getEngine()
+    {
+        return $this->renderer;
     }
 
     /**
@@ -33,7 +41,7 @@ class TwigAdapter implements TemplateInterface
     {
         return $this->renderer->render($template.'.html', $templateParameters);
     }
-    
+
     /**
      * adds a function
      *
@@ -45,7 +53,7 @@ class TwigAdapter implements TemplateInterface
         $function = new \Twig_SimpleFunction($name, $functionBody);
         $this->renderer->addFunction($function);
     }
-    
+
     /**
      * adds a filter
      *
